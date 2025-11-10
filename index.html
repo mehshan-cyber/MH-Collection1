@@ -1,0 +1,1562 @@
+<!DOCTYPE html><html lang="en"><head><script src="js/e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HM Collection – Curated for the Modern Wardrobe</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#001F3F',secondary:'#D4AF37'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/remixicon.min.css">
+    <link rel="icon" type="image/png" href="images\favicon.jpeg"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body { font-family: 'Poppins', sans-serif; }
+        .hero-bg { background-image: url('images/hearder img.jpg'); }
+        
+    </style>
+</head>
+<body class="bg-white">
+<!--  
+nav
+nav
+nav -->
+
+<nav>
+  <!-- Checkbox for toggling menu -->
+  <input type="checkbox" id="check">
+  <!-- Hamburger menu icon -->
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <!-- Logo -->
+  <img class="navlogo" src="images/logo.webp" alt="Logo">
+  <!-- Navigation links -->
+  <ul>
+   <li><a href="#" class="nav-link" data-section="home">Home</a></li>
+    <li><a href="#" class="nav-link" data-section="arrivals">New Arrivals</a></li>
+    <li><a href="#" class="nav-link" data-section="offers">Offers</a></li>
+    <li><a href="#" class="nav-link" data-section="feedback">Feedback</a></li>
+  </ul>
+</nav>
+
+
+
+
+
+
+
+
+
+<!-- Banner
+Banner
+Banner
+Banner -->
+
+
+   <section class="hero-bg bg-cover bg-center bg-no-repeat relative min-h-[600px] sm:min-h-[500px] md:min-h-[600px] lg:min-h-[700px]">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-start justify-center pt-24 sm:pt-32 lg:pt-40 text-center">
+        <div class="w-full max-w-2xl">
+            <!-- Headline -->
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-snug sm:leading-tight lg:leading-tight">
+                Curated for the Modern Wardrobe
+            </h2>
+
+            <!-- Subtext -->
+            <p class="text-lg sm:text-xl md:text-2xl text-white mb-6 sm:mb-8 leading-relaxed">
+               Premium jackets and stylish apparel that combine classic design with contemporary flair.
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex flex-col sm:flex-row justify-center sm:space-x-4 space-y-4 sm:space-y-0">
+                <button class="bg-primary text-white px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all whitespace-nowrap">
+                    Shop Now
+                </button>
+                <button class="border-2 border-secondary text-white px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-secondary hover:text-primary transition-all whitespace-nowrap">
+                    View New Arrivals
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- after header
+after header
+after header
+after header -->
+
+
+
+   <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="relative bg-primary rounded-lg overflow-hidden h-64 group cursor-pointer">
+                    <div class="absolute inset-0" style="background-image: url('images/jacket.jpg'); background-size: cover; background-position: center;"></div>
+                    <div class="absolute inset-0 bg-primary bg-opacity-70"></div>
+                    <div class="relative z-10 p-8 h-full flex flex-col justify-center">
+                        <div class="w-12 h-12 flex items-center justify-center mb-4">
+                            <i class="ri-shirt-line text-secondary ri-2x"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold text-white mb-2">Coats & Jackets</h4>
+                        <p class="text-white opacity-90 mb-4">Premium outerwear for every season</p>
+                        <button class="bg-secondary text-primary px-6 py-2 !rounded-button font-semibold hover:bg-opacity-90 transition-all whitespace-nowrap self-start">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="relative bg-secondary rounded-lg overflow-hidden h-64 group cursor-pointer">
+                    <div class="absolute inset-0" style="background-image: url('images/hoodie.jpg'); background-size: cover; background-position: center;"></div>
+                    <div class="absolute inset-0 bg-secondary bg-opacity-70"></div>
+                    <div class="relative z-10 p-8 h-full flex flex-col justify-center">
+                        <div class="w-12 h-12 flex items-center justify-center mb-4">
+                            <i class="ri-t-shirt-line text-primary ri-2x"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold text-primary mb-2">Hoodies & Tshirts</h4>
+                        <p class="text-primary opacity-90 mb-4">Athletic wear meets luxury fashion</p>
+                        <button class="bg-primary text-white px-6 py-2 !rounded-button font-semibold hover:bg-opacity-90 transition-all whitespace-nowrap self-start">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="relative bg-white border-2 border-gray-100 rounded-lg overflow-hidden h-64 group cursor-pointer">
+                    <div class="absolute inset-0" style="background-image: url('images/watshes and shoes.jpg'); background-size: cover; background-position: center;"></div>
+                    <div class="absolute inset-0 bg-white bg-opacity-80"></div>
+                    <div class="relative z-10 p-8 h-full flex flex-col justify-center">
+                        <div class="w-12 h-12 flex items-center justify-center mb-4">
+                            <i class="ri-user-suit-line text-secondary ri-2x"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold text-primary mb-2">Watches & Footwear</h4>
+                        <p class="text-primary opacity-90 mb-4">Tailored perfection for every occasion</p>
+                        <button class="bg-primary text-white px-6 py-2 !rounded-button font-semibold hover:bg-opacity-90 transition-all whitespace-nowrap self-start">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- collections
+collections
+collections
+collections -->
+
+<section class="collections">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Collections</h2>
+      <div class="underline"></div>
+    </div>
+
+    <div class="collection-grid">
+      <div class="collection-card">
+        <img src="images/winter coll.jpg" alt="Winter Collection">
+        <h3>Winter Collection</h3>
+      </div>
+
+      <div class="collection-card">
+        <img src="images/watch and foor.jpeg" alt="Watches & Footwear">
+        <h3>Watches & Footwear</h3>
+      </div>
+
+      <div class="collection-card">
+        <img src="images/collec jacket.jpg" alt="Jackets">
+        <h3>Jackets</h3>
+      </div>
+
+      <div class="collection-card">
+        <img src="images/men accer.jpg" alt="Men’s Accessories">
+        <h3>Men’s Accessories</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- new-arrivals
+new-arrivals
+new-arrivals
+new-arrivals
+new-arrivals -->
+  
+
+<section  class="new-arrivals" >
+ 
+  <div class="containerarrivals">
+    <div class="section-header">
+      <h3>New Arrivals</h3>
+      <div class="underline"></div>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\1.jpeg" alt="Classic Navy Wool Shirt Jacket">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Classic Navy Wool Shirt Jacket</h3>
+        <p class="desc">Premium Navy Wool Jacket – Soft, warm, and stylish for any occasion.</p>
+        <p class="price">1899.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\2.jpeg" alt="Classic Black Bomber">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Classic Black Bomber</h3>
+        <p class="desc">Classic Black Bomber Jacket – Sleek, lightweight, and perfect for everyday wear.</p>
+        <p class="price">1299.00</p>
+      </div>
+
+<div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\3.jpeg" alt="Classic Beige Wool Jacket">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Classic Beige Wool Jacket</h3>
+        <p class="desc">Elegant and versatile — perfect blend of warmth and timeless style.</p>
+        <p class="price">2899.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\4.jpeg" alt="Light Knit Cardigan">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Light Knit Cardigan</h3>
+        <p class="desc">Soft, cozy, and ideal for layering with any outfit.</p>
+        <p class="price">1999.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\6.jpeg" alt="Charcoal Half-Zip Sweater">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Charcoal Half-Zip Sweater</h3>
+        <p class="desc">Modern design with a comfortable fit for smart-casual looks.</p>
+        <p class="price">2699.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\7.jpeg" alt="">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Khaki Bomber Jacket</h3>
+        <p class="desc">Trendy, lightweight, and perfect for everyday wear.</p>
+        <p class="price">2599.00</p>
+      </div>
+
+<div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\8.jpeg" alt="Charcoal Smart Knit Jacket">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Charcoal Smart Knit Jacket</h3>
+        <p class="desc">Sleek knit design with zip pocket — perfect for everyday comfort.</p>
+        <p class="price">1399.00</p>
+      </div>
+
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\9.jpeg" alt="Streetwear Grey Hoodie Jacket">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Streetwear Grey Hoodie Jacket</h3>
+        <p class="desc">Trendy two-tone street style with soft fleece comfort.</p>
+        <p class="price">1350.00</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section  class="new-arrivals" >
+ 
+  <div class="containerarrivals">
+    <!-- <div class="section-header"> -->
+      <!-- <h3>New Arrivals</h3> -->
+      <!-- <div class="underline"></div>
+    </div> -->
+
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\11.jpeg" alt="Light Grey Puffer Vest">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Light Grey Puffer Vest</h3>
+        <p class="desc">Lightweight warmth for layering — modern casual look.</p>
+        <p class="price">2999.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\12.jpeg" alt="Black Active Vest">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Black Active Vest</h3>
+        <p class="desc">Sporty sleeveless puffer — versatile for all-day wear.</p>
+        <p class="price">1899.00</p>
+      </div>
+
+<div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\13.jpeg" alt="Classic Down Jacket">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Classic Down Jacket</h3>
+        <p class="desc">Timeless quilted warmth with a slim modern fit.</p>
+        <p class="price">3199.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\14.jpeg" alt="Sport Padded Zip Jacket">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Sport Padded Zip Jacket</h3>
+        <p class="desc">Athletic-inspired puffer — lightweight, warm, and durable.</p>
+        <p class="price">2399.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\15.jpeg" alt="Black & White Block Hoodie">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Black & White Block Hoodie</h3>
+        <p class="desc">Bold contrast style — soft fleece warmth with a street edge.</p>
+        <p class="price">1299.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\16.jpeg" alt="Navy Gradient Hoodie">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Navy Gradient Hoodie</h3>
+        <p class="desc">Modern two-tone comfort — perfect for casual days.</p>
+        <p class="price">1699.00</p>
+      </div>
+
+<div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\17.jpeg" alt="DOPE Graphic Hoodie">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>DOPE Graphic Hoodie</h3>
+        <p class="desc">Classic rebel vibe — soft cotton comfort with bold back print.</p>
+        <p class="price">1450.00</p>
+      </div>
+
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\18.jpeg" alt="Bad Boys Printed Hoodie">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Bad Boys Printed Hoodie</h3>
+        <p class="desc">Classic rebel vibe — soft cotton comfort with bold back print.</p>
+        <p class="price">1450.00</p>
+      </div>
+    </div>
+   </div>
+
+</section>
+ 
+
+
+
+
+
+<!-- 🔹 Product Detail Modal -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <img id="modalImage" src="" alt="">
+    <p><strong>Category:</strong> <span id="modalCategory"></span></p>
+    <p><strong>Description:</strong> <span id="modalDescription"></span></p>
+    <p><strong>Price:</strong> <span id="modalPrice"></span></p>
+    <button id="orderNow">Order Now</button>
+  </div>
+</div>
+
+
+
+
+<script>
+document.querySelectorAll('.add-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const card = this.closest('.product-card');
+    const title = card.querySelector('h3').innerText;
+    const desc = card.querySelector('.desc').innerText;
+    const price = card.querySelector('.price').innerText;
+    const imgSrc = card.querySelector('img').src;
+
+    // fill modal content
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('modalDescription').innerText = desc;
+    document.getElementById('modalPrice').innerText = price;
+    document.getElementById('modalCategory').innerText = "Men's Wear"; // optional
+    document.getElementById('modalImage').src = imgSrc;
+
+    // show modal
+    document.getElementById('productModal').style.display = 'flex';
+
+    // setup WhatsApp link with image
+    document.getElementById('orderNow').onclick = function() {
+      const message = `🛍 *Product Inquiry*\n\n*${title}*\n${desc}\n💵 Price: ${price}\n\n📸 Product Image:\n${imgSrc}\n\nI’d like to order this item. Please share more details.`;
+      const phone = '923341775811'; // your WhatsApp number
+      const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    };
+  });
+});
+
+// close modal
+document.querySelector('.close').onclick = () => {
+  document.getElementById('productModal').style.display = 'none';
+};
+
+// close when clicking outside
+window.onclick = (e) => {
+  if (e.target == document.getElementById('productModal')) {
+    document.getElementById('productModal').style.display = 'none';
+  }
+};
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+special-offerssa
+special-offerssa
+special-offerssa
+special-offerssa -->
+
+<section class="special-offerssa">
+    <div class="containersa">
+      <div class="section-headersa">
+        <h3>Special Offers</h3>
+        <div class="underlinesa"></div>
+      </div>
+
+      <div class="offers-gridsa">
+        <!-- Card 1 -->
+        <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\19.jpeg" alt="Classic Brown Leather Rider Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Classic Brown Leather Rider Jacket</h4>
+            <p>Timeless pure leather jacket with zip closure and snap collar for a rugged, refined look.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">13999.00</span>
+              <span class="old-pricesa">17500.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\20.jpeg" alt="Black Leather Moto Biker Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Black Leather Moto Biker Jacket</h4>
+            <p>Stylish pure leather biker jacket with quilted shoulders and a sleek, modern fit.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">13999.00</span>
+              <span class="old-pricesa">17500.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+<div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\21.jpeg" alt="Navy Leather Urban Cruiser Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Navy Leather Urban Cruiser Jacket</h4>
+            <p>Premium pure leather jacket with a clean design and stand collar for a smart casual vibe.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">13999.00</span>
+              <span class="old-pricesa">17500.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        
+
+
+        <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\22.jpeg" alt="Black Leather Shearling Collar Aviator Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Black Leather Shearling Collar Aviator Jacket</h4>
+            <p>Soft genuine leather aviator jacket with a warm shearling-style collar and cropped fit.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">13999.00</span>
+              <span class="old-pricesa">17500.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+        <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\23.jpeg" alt="Blue Denim Leather Collar Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Blue Denim Leather Collar Jacket</h4>
+            <p>Classic denim-style jacket featuring a soft leather shearling collar for warmth and style.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">3299.00</span>
+              <span class="old-pricesa">3999.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+        <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\24.jpeg" alt="Brown Leather Stand Collar Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Brown Leather Stand Collar Jacket</h4>
+            <p>Pure leather jacket with a clean, minimal design and sleek stand-up collar.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">3999.00</span>
+              <span class="old-pricesa">3800.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+          <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\25.jpeg" alt="Two-Tone Leather Panel Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Two-Tone Leather Panel Jacket</h4>
+            <p>Modern dual-color leather jacket combining rich brown and black panels for a sharp look.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">2399.00</span>
+              <span class="old-pricesa">2899.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+
+        
+        <!-- Card 3 -->
+        <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\26.jpeg" alt="Brown Leather Shearling Lined Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Brown Leather Shearling Lined</h4>
+            <p>Premium pure leather jacket with cozy shearling lining for superior warmth and comfort.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">2699.00</span>
+              <span class="old-pricesa">3399.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+ <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\27.jpeg" alt="Classic Crewneck Sweatshirt">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Classic Crewneck Sweatshirt</h4>
+            <p>Soft cotton sweatshirt available in multiple colors — perfect for everyday comfort.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">1450.00</span>
+              <span class="old-pricesa">1750.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+ <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\28.jpeg" alt="Brown Tracksuit Set">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Brown Tracksuit Set</h4>
+            <p>Stylish two-piece tracksuit in rich brown with zip jacket and matching joggers.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">1550.00</span>
+              <span class="old-pricesa">1850.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+
+         <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\29.jpeg" alt="Grey Hoodie & Jogger Set">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Grey Hoodie & Jogger Set</h4>
+            <p>Comfortable casual set featuring a soft hoodie and matching sweatpants.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">1499.00</span>
+              <span class="old-pricesa">1840.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\30.jpeg" alt="Tan Leather Hooded Jacket">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Tan Leather Hooded Jacket</h4>
+            <p>Pure leather jacket with attached hood and zip pockets — sporty yet refined.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">2099.00</span>
+              <span class="old-pricesa">2600.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+          <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\31.jpeg" alt="Navy Turtleneck Pullover">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Navy Turtleneck Pullover</h4>
+            <p>Slim-fit knit turtleneck offering warmth and a sleek, modern look.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">899.00</span>
+              <span class="old-pricesa">1299.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+
+        
+        <!-- Card 3 -->
+        <div class="offer-cardsa">
+          <div class="image-boxsa">
+            <img src="images\PRODUCT\32.jpeg" alt="Black Puffer Leather Vest">
+            <span class="badgesa">25% OFF</span>
+          </div>
+          <div class="offer-contentsa">
+            <h4>Black Puffer Leather Vest</h4>
+            <p>Lightweight pure leather puffer vest with zip front and high collar for a trendy, layered style.</p>
+            <div class="pricesa">
+              <span class="new-pricesa">1899.00</span>
+              <span class="old-pricesa">2399.00</span>
+            </div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+<!-- Product Section -->
+<!-- ✅ Product Popup Modal -->
+<div id="productModalsa" class="modalsa">
+  <div class="modal-contentsa">
+    <span class="closesa">&times;</span>
+    <h3 id="modalTitlesa">Product Name</h3>
+    <img id="modalImagesa" src="" alt="Product Image">
+    <p id="modalDescsa">Product Description</p>
+    <p id="modalPricesa" class="pricesa"></p>
+    <button id="orderNowBtnsa">Order Now</button>
+  </div>
+</div>
+
+<script>
+
+// ---------- Product Popup Logic ----------
+const modalsa = document.getElementById("productModalsa");
+const closeBtnsa = document.querySelector(".closesa");
+const orderNowBtnsa = document.getElementById("orderNowBtnsa");
+let currentProduct = {};
+
+// ✅ Open modal when "Add to Cart" is clicked
+document.querySelectorAll(".offer-cardsa button").forEach(button => {
+  button.addEventListener("click", (e) => {
+    const card = e.target.closest(".offer-cardsa");
+    const title = card.querySelector("h4").textContent;
+    const desc = card.querySelector("p").textContent;
+    const price = card.querySelector(".new-pricesa").textContent;
+    const imgSrc = card.querySelector("img").src;
+
+    document.getElementById("modalTitlesa").textContent = title;
+    document.getElementById("modalDescsa").textContent = desc;
+    document.getElementById("modalPricesa").textContent = price;
+    document.getElementById("modalImagesa").src = imgSrc;
+
+    currentProduct = { title, desc, price, imgSrc };
+
+    modalsa.style.display = "flex"; // ✅ Show modal
+  });
+});
+
+// ✅ Close modal
+closeBtnsa.addEventListener("click", () => {
+  modalsa.style.display = "none";
+});
+
+// ✅ Close modal when clicking outside
+window.addEventListener("click", (e) => {
+  if (e.target === modalsa) {
+    modalsa.style.display = "none";
+  }
+});
+
+// ---------- WhatsApp Order ----------
+orderNowBtnsa.addEventListener("click", () => {
+  const phoneNumber = "923001234567"; // ✅ Replace with your WhatsApp number (no + or 0)
+  const { title, desc, price, imgSrc } = currentProduct;
+
+  const message = `🧥 *${title}*\n\n${desc}\n💰 Price: ${price}\n\n🖼️ Product Image: ${imgSrc}\n\nI'd like to order this product.`;
+
+  // ✅ Create WhatsApp link
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  // ✅ Open in new tab
+  window.open(url, "_blank");
+
+  // ✅ Optional: Close modal after clicking
+  modalsa.style.display = "none";
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 🔹 Watches & Footwear Section -->
+<!-- 🔹 Watches & Footwear Section -->
+ <!-- 🔹 Watches & Footwear Section -->
+  <!-- 🔹 Watches & Footwear Section -->
+<section class="new-arrivals">
+  <div class="containerarrivals">
+    <div class="section-header">
+      <h3>Watches & Footwear</h3>
+      <div class="underline"></div>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\33.jpeg" alt="Urban Trek Sneakers">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Urban Trek Sneakers</h3>
+        <p class="desc">Step into comfort with these two-tone casual sneakers. Designed for all-day wear—perfect for your daily adventures.</p>
+        <p class="price">1550.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\34.jpeg" alt="Maroon Luxe Loafers">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Maroon Luxe Loafers</h3>
+        <p class="desc">Crafted with a premium textured finish, these slip-on loafers bring a bold yet elegant vibe.</p>
+        <p class="price">1499.00</p>
+      </div>
+
+
+
+    <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\35.jpeg" alt="Amber Classic Brogues">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Amber Classic Brogues</h3>
+        <p class="desc">Perfect for work or formal events, offering both style and lasting comfort with every step.</p>
+        <p class="price">3299.00</p>
+      </div>
+
+
+
+
+
+          <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\36.jpeg" alt="Chestnut Elite Moccasins">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Chestnut Elite Moccasins</h3>
+        <p class="desc">A luxurious pair featuring a smooth chestnut finish and hand-stitched detailing.</p>
+        <p class="price">1699.00</p>
+      </div>
+
+
+
+          <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\37.jpeg" alt="Espresso Comfort Loafers">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Espresso Comfort Loafers</h3>
+        <p class="desc">Sleek and versatile,The soft inner lining and flexible sole make them ideal for long hours and effortless style.</p>
+        <p class="price">1350.00</p>
+      </div>
+
+
+
+    <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\38.jpeg" alt="">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Midnight Formal Derbies</h3>
+        <p class="desc">A sharp choice for business or formal occasions. Crafted from premium leather with a polished finish and sturdy laces</p>
+        <p class="price">1350.00</p>
+      </div>
+
+
+
+
+<div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\39.jpeg" alt="Silver Edge Classic">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Silver Edge Classic</h3>
+        <p class="desc">A timeless stainless-steel wristwatch featuring a deep black dial and minimalist markers.</p>
+        <p class="price">1199.00</p>
+      </div>
+
+
+
+<div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\41.jpeg" alt="Mocha Leather Chrono">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Mocha Leather Chrono</h3>
+        <p class="desc">This brown leather chronograph exudes rugged sophistication. With its bold face and durable build</p>
+        <p class="price">1099.00</p>
+      </div>
+
+
+
+
+<div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\49.jpeg" alt="Bronze Prestige">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Bronze Prestige</h3>
+        <p class="desc">Elevate your wristwear with this bronze metallic watch featuring a sunburst dial.</p>
+        <p class="price">4699.00</p>
+      </div>
+
+
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\42.jpeg" alt="DualTone Royal Gold">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>DualTone Royal Gold</h3>
+        <p class="desc">Showcasing luxury and precision, this dual-tone gold and silver timepiece delivers confidence.</p>
+        <p class="price">2199.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\43.jpeg" alt="Heritage Brown Chronograph">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Heritage Brown Chronograph</h3>
+        <p class="desc">A refined brown leather strap meets a crisp white dial. </p>
+        <p class="price">2399.00</p>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\44.jpeg" alt="Blue Fusion ChronoSport">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Blue Fusion ChronoSport</h3>
+        <p class="desc">A bold and sporty chronograph with a metallic blue dial. Built for performance and precision</p>
+        <p class="price">1699.00</p>
+      </div>
+
+<div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\46.jpeg" alt="Black Matrix Sports Watch">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Black Matrix Sports Watch</h3>
+        <p class="desc">Engineered for an active lifestyle, this all-black digital-analog modern watch.</p>
+        <p class="price">2899.00</p>
+      </div>
+
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\47.jpeg" alt="Golden Mechanica">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>Golden Mechanica</h3>
+        <p class="desc">An open-heart design reveals the intricate gears within this gold masterpiece.</p>
+        <p class="price">6999.00</p>
+      </div>
+  
+
+
+
+   <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\51.jpeg" alt="RoseGold Aura">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>RoseGold Aura</h3>
+        <p class="desc">Graceful and modern, this rose-gold watch embodies minimalism at its finest.</p>
+        <p class="price">3999.00</p>
+      </div>
+  
+
+
+
+   <div class="product-card">
+        <div class="image-box">
+          <img src="images\PRODUCT\50.jpeg" alt="SkySilver Executive">
+          <button class="add-btn">See Detail</button>
+        </div>
+        <h3>SkySilver Executive</h3>
+        <p class="desc">A sleek silver timepiece with a cool blue dial that adds a touch of modern luxury..</p>
+        <p class="price">4599.00</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+</section>
+
+
+<!-- 🔹 Product Detail Modal -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <img id="modalImage" src="" alt="">
+    <p><strong>Category:</strong> <span id="modalCategory"></span></p>
+    <p><strong>Description:</strong> <span id="modalDescription"></span></p>
+    <p><strong>Price:</strong> <span id="modalPrice"></span></p>
+    <button id="orderNow">Order Now</button>
+  </div>
+</div>
+<script>
+document.querySelectorAll('.add-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const card = this.closest('.product-card');
+    const title = card.querySelector('h3').innerText;
+    const desc = card.querySelector('.desc').innerText;
+    const price = card.querySelector('.price').innerText;
+    const imgSrc = card.querySelector('img').src;
+
+    // fill modal content
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('modalDescription').innerText = desc;
+    document.getElementById('modalPrice').innerText = price;
+    document.getElementById('modalCategory').innerText = "Men's Wear"; // optional
+    document.getElementById('modalImage').src = imgSrc;
+
+    // show modal
+    document.getElementById('productModal').style.display = 'flex';
+
+    // setup WhatsApp link with image
+    document.getElementById('orderNow').onclick = function() {
+      const message = `🛍 *Product Inquiry*\n\n*${title}*\n${desc}\n💵 Price: ${price}\n\n📸 Product Image:\n${imgSrc}\n\nI’d like to order this item. Please share more details.`;
+      const phone = '923341775811'; // your WhatsApp number
+      const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    };
+  });
+});
+
+// close modal
+document.querySelector('.close').onclick = () => {
+  document.getElementById('productModal').style.display = 'none';
+};
+
+// close when clicking outside
+window.onclick = (e) => {
+  if (e.target == document.getElementById('productModal')) {
+    document.getElementById('productModal').style.display = 'none';
+  }
+};
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- testimonial
+testimonial
+testimonial
+testimonial
+testimonial -->
+
+<div class="testimonial-container">
+
+  
+  <h2 class="h2testinomials">What Our Customers Are Saying</h2>
+  <div class="progress-bar"></div>
+  <div class="fas fa-quote-right fa-quote"></div>
+  <div class="fas fa-quote-left fa-quote"></div>
+  <p class="testimonial">Jacket ki quality kamaal ki hai, fit bilkul perfect hai. Bohat pasand aayi!”
+
+“Delivery time par mili aur product bilkul waise hi tha jaise pictures mein.</p>
+  <div class="user">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKg5aDOwHYrQK7000WBUJOfY4O_Rca17b7MJqaWquGMCI8XvGqI1-KRtlIwIj8nPJU4yI&usqp=CAU" alt="user" class="user-image">
+    <div class="user-details">
+      <h4 class="username">Farha Khan</h4>
+      <p class="role">Coustmer</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+footer
+footer
+footer
+footer
+footer -->
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="images\logo.webp" alt="MH Collections Logo">
+      <p>Redefining modern elegance with refined jackets & apparel for timeless style.</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61583466118452"><i class="ri-facebook-fill"></i></a>
+        <a href="https://www.instagram.com/buy.mhmcollection?igsh=Zmt1c2hhYzR6cXln"><i class="ri-instagram-line"></i></a>
+        <a href="https://www.tiktok.com/@buy.hmcollection?is_from_webapp=1&sender_device=pc"><i class="ri-tiktok-fill"></i></a>
+
+       <a href="https://www.olx.com.pk/profile/2ac7a540-7bcb-4c1a-b37b-c90990284c12" target="_blank">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32">
+    <circle cx="32" cy="32" r="32" fill="#001a3a"/>
+    <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="24" font-family="Arial" font-weight="bold">OLX</text>
+  </svg>
+</a>
+
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a id="termsLink">Terms & Conditions</a></li>
+        <li><a id="privacyLink">Privacy Policy</a></li>
+        <li><a id="refundLink">Refund Policy</a></li>
+        <li><a id="disclaimerLink">Disclaimer</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Get In Touch</h3>
+      <ul>
+        <li><i class="ri-map-pin-line"></i> Shop #12, First Floor, City Center Mall, Karachi, Pakistan</li>
+        <li><i class="ri-phone-fill"></i> +923341775811</li>
+        <li><i class="ri-mail-line"></i> contact.mhcollection@gmail.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2025 <a href="#">MH Collections</a>. All Rights Reserved.
+  </div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/923341775811" class="whatsapp-float" target="_blank">
+  <i class="ri-whatsapp-line"></i>
+</a>
+
+<!-- ===== MODALS ===== -->
+
+<!-- Terms Modal -->
+<div id="termsModal" class="modal-overlay">
+  <div class="modal-content">
+    <div class="modal-header">
+      Terms & Conditions
+      <span class="close-btn">&times;</span>
+    </div>
+    <div class="modal-body">
+      <p>MH Collections ki website use karte hue ya access karte hue, aap ye terms aur conditions accept karte hain aur inke mutabiq amal karne ke liye razi hain. Sab users ko chahiye ke wo in terms ko dhyan se padhein pehle ke koi bhi purchase karein ya hamari services use karein.
+
+MH Collections ko haq hai ke ye terms kabhi bhi update, modify, ya revise kare bina kisi prior notice ke, aur website ka continued use in changes ko accept karne ka matlab hai.
+
+Hamari website par listed tamam products availability par depend karte hain. Prices, product descriptions, aur images sirf reference ke liye hain aur bina notice ke change ho sakte hain. Hum koshish karte hain ke sab info accurate ho, lekin MH Collections guarantee nahi deta ke sab information error-free ho.
+
+MH Collections ko haq hai ke wo koi bhi order refuse ya cancel kar sake, including orders jisme pricing errors ya unauthorized promotions ho. Users ka minimum age 18 saal hona chahiye order place karne ke liye.
+
+Personal information provide karte hue, aap confirm karte hain ke ye accurate aur complete hai. Sab information jo MH Collections ko di jati hai, wo hamari Privacy Policy ke under governed hai, aur users consent dete hain ke unka data collect, use, aur store kiya ja sakta hai jaise policy mein mention hai.
+
+Payments sirf accepted payment methods ke through honi chahiye jo website par listed hain. MH Collections secure transactions ensure karta hai, lekin payment gateways ya banking processes se related kisi bhi maslay ki zimmedari nahi leta.
+
+Sab purchases applicable taxes, shipping charges, aur delivery terms ke subject hain, jo clearly checkout par show hote hain. MH Collections koshish karta hai ke tamam orders timely deliver hoon. Delivery dates estimates hain aur external factors, jaise courier delays, natural disasters, ya supply shortages, se effect ho sakti hain. Users responsible hain accurate shipping info provide karne ke liye. MH Collections lost ya delayed shipments ki zimmedari nahi leta agar user incorrect ya incomplete info provide kare.
+
+Sab returns, exchanges, aur refunds hamari Return & Refund Policy ke mutabiq handle hote hain. Users ko chahiye ke wo ye policies review karein aur follow karein before request initiate karne ke. MH Collections ko haq hai ke wo returns refuse kare jo stated conditions meet na karte ho.
+
+Users ko mana hai ke wo MH Collections ko unlawful purposes ke liye use karein, including lekin limited nahi hai intellectual property rights violate karna, harmful content distribute karna, ya unauthorized access attempt karna. Koi bhi violation immediate suspension ya termination ka sabab ban sakta hai, aur zarurat par legal action liya ja sakta hai.
+
+MH Collections kisi bhi direct, indirect, ya consequential damages ki zimmedari nahi leta jo website ya products ke use se arise ho. Hamari website aur products “as is” provide kiye jate hain bina kisi warranties ke, express ya implied, including merchantability ya fitness for a particular purpose.
+
+MH Collections use karte hue, aap agree karte hain ke disputes ko good-faith negotiations se resolve karein. Agar resolution possible na ho, disputes Pakistan ke laws ke mutabiq governed honge aur relevant courts Karachi ki jurisdiction mein aayenge.
+
+Thank you for choosing MH Collections.
+Hamare saath shopping karte hue, aap ye terms aur conditions accept karte hain aur apne rights aur responsibilities ko samajhte hain as a valued customer.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Privacy Policy Modal -->
+<div id="privacyModal" class="modal-overlay">
+  <div class="modal-content">
+    <div class="modal-header">
+      Privacy Policy
+      <span class="close-btn">&times;</span>
+    </div>
+    <div class="modal-body">
+      <p>MH Collections par aapki privacy hamare liye bohat important hai. Ye Privacy Policy batati hai ke hum kaise aapki personal information collect, store, aur use karte hain jab aap hamari website visit karte hain ya purchase karte hain. Hamari services use karte hue, aap in practices ko accept karte hain.
+
+Hum personal information collect karte hain jaise ke aapka naam, email address, phone number, shipping aur billing addresses, aur payment details jab aap order place karte hain ya account register karte hain. Ye information sirf order process karne, customer support provide karne, aur aapke shopping experience ko improve karne ke liye use hoti hai.
+
+MH Collections non-personal information bhi automatically collect karta hai through cookies, web beacons, aur analytics tools. Isme data shamil hai jaise aapka IP address, browser type, device information, visited pages, aur visit duration. Ye information humari website performance analyze karne, user behavior samajhne, aur services enhance karne mein madad karti hai.
+
+Hum third-party services bhi use karte hain, including payment processors, shipping partners, aur analytics providers, jinhe aapki information sirf apne functions perform karne ke liye access hoti hai. Hum ensure karte hain ke ye third-party services applicable privacy standards follow karein aur aapka data protect ho.
+
+Hum appropriate technical aur organizational measures lete hain taake aapki personal information unauthorized access, alteration, disclosure, ya destruction se mehfooz rahe. Sensitive data jaise payment information securely transmit aur encrypted hoti hai.
+
+Hum aapki personal information third parties ko marketing purposes ke liye sell, trade, ya rent nahi karte. Aapki information sirf transactions complete karne, legal obligations follow karne, ya fraudulent activities prevent karne ke liye share ho sakti hai.
+
+Aapko haq hai ke aap apni personal information access, update, ya delete kar saken by contacting hamari customer support. Aap cookie preferences bhi apne browser settings ke through manage kar sakte hain. Lekin, please note karein ke agar cookies disable hon, to website ke kuch features properly function nahi karenge.
+
+MH Collections use karte hue, aap consent dete hain ke aapki information collect aur use ho jaise is Privacy Policy mein describe hai. Hum kabhi kabhi ye policy update kar sakte hain, aur koi bhi changes website par post kiye jayenge updated effective date ke sath.
+
+Thank you for trusting MH Collections
+Aapki privacy aur security hamari top priority hai, aur hum committed hain ke aapke confidence ko maintain rakhein hamari services mein.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Refund Policy Modal -->
+<div id="refundModal" class="modal-overlay">
+  <div class="modal-content">
+    <div class="modal-header">
+      Refund Policy
+      <span class="close-btn">&times;</span>
+    </div>
+    <div class="modal-body">
+      <p>MH Collections Mein Customer Satisfaction Hamari Top Priority Hai
+
+Hamari Refund Policy returns, exchanges, aur refunds ka process outline karti hai taake hamare valued customers ke liye experience smooth aur transparent ho.
+
+Agar aap apni purchase se puri tarah satisfied nahi hain, to aap order receive karne ke 7 din ke andar return ya exchange request kar sakte hain. Eligibility ke liye, items unused, original condition mein, aur tags aur packaging ke sath honi chahiye. Personalized ya custom-made items non-refundable hain, jab tak ke wo damaged ya defective na hon.
+
+Return ya exchange initiate karne ke liye, please hamari customer support team se contact karein apna order number aur item details ke sath. Hum aapko product return karne ke instructions provide karenge.
+
+Returns ke liye shipping costs customers ki zimmedari hoti hai, siwaye defective ya incorrect items ke cases mein. Jab hum returned item receive aur inspect kar lete hain, to hum aapko refund approval ya rejection ke baare mein notify karenge. Approved refunds 7–10 business days ke andar original payment method ke through process kiye jayenge.
+
+Exchanges ke case mein, replacement item jald se jald ship kiya jayega bina kisi extra cost ke.
+
+MH Collections ka haq hai ke refund ya exchange refuse kare agar returned item stated conditions ko meet nahi karta. Items jo misuse, negligence, ya improper handling ki wajah se damaged hain, unke liye refund ya exchange eligible nahi hai.
+
+Refund Policy ke kisi bhi question ke liye ya return initiate karne ke liye, please hamari customer support team se contact karein. Hum committed hain ke aapko hassle-free experience provide karein aur har purchase par aapki satisfaction ensure karein.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Disclaimer Modal -->
+<div id="disclaimerModal" class="modal-overlay">
+  <div class="modal-content">
+    <div class="modal-header">
+      Disclaimer
+      <span class="close-btn">&times;</span>
+    </div>
+    <div class="modal-body">
+      <p> MH Collections Website Ka Disclaimer
+
+MH Collections website par di gayi maloomat sirf general informational purposes ke liye hai. Hum koshish karte hain ke tamam content, product descriptions, images, aur pricing accurate aur updated hon, lekin hum kisi bhi maloomat ki completeness, reliability, ya accuracy ki guarantee nahi dete.
+
+MH Collections kisi bhi errors, omissions, ya inaccuracies ke liye zimmedar nahi hai jo site par di gayi maloomat mein ho sakti hain. Tamam products, promotions, aur offers bina prior notice ke change ho sakte hain. Humara haq hai ke kisi bhi product, service, ya feature ko modify ya discontinue karein bina kisi liability ke.
+
+Website use karte waqt, aap ye tasleem karte hain ke provided maloomat par reliance aapke apne risk par hai. MH Collections kisi bhi direct, indirect, ya consequential damages ke liye zimmedar nahi hai jo website, products, ya services ke use se ho, including financial loss, business interruption, ya personal injury.
+
+Third-party websites ke links sirf convenience ke liye diye gaye hain aur ye kisi endorsement ya warranty ka zariya nahi hain. MH Collections ka third-party content par control nahi hai aur ye un external sites ki accuracy, legality, ya safety ke liye responsible nahi hai.
+
+Users ki zimmedari hai ke woh ensure karein ke purchased products unki individual needs ko meet karte hon aur local laws aur regulations ke mutabiq hon. MH Collections medical, legal, ya professional advice provide nahi karta, aur aisi maloomat par reliance strictly aapke apne discretion par hai.
+
+MH Collections ko access karte ya use karte waqt, aap is disclaimer ko accept karte hain aur samajhte hain ke website aur iska content “as is” provide kiya gaya hai, bina kisi express ya implied warranties ke. MH Collections ko haq hai ke is disclaimer ko kabhi bhi update kare, aur site ka continued use kisi bhi changes ke acceptance ka matlab hai.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SCRIPT ===== -->
+<script>
+  const modals = document.querySelectorAll('.modal-overlay');
+  const links = {
+    termsLink: document.getElementById('termsModal'),
+    privacyLink: document.getElementById('privacyModal'),
+    refundLink: document.getElementById('refundModal'),
+    disclaimerLink: document.getElementById('disclaimerModal')
+  };
+
+  Object.keys(links).forEach(linkId => {
+    document.getElementById(linkId).onclick = function() {
+      links[linkId].style.display = 'flex';
+    };
+  });
+
+  document.querySelectorAll('.close-btn').forEach(btn => {
+    btn.onclick = () => btn.closest('.modal-overlay').style.display = 'none';
+  });
+
+  window.onclick = function(e) {
+    if (e.target.classList.contains('modal-overlay')) {
+      e.target.style.display = 'none';
+    }
+  };
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script id="cart-functionality">
+        document.addEventListener('DOMContentLoaded', function() {
+            const addToCartButtons = document.querySelectorAll('button:contains("Add to Cart")');
+            const cartIcon = document.querySelector('.ri-shopping-cart-line').parentElement;
+            const cartCount = cartIcon.querySelector('span');
+            let currentCount = 3;
+
+            addToCartButtons.forEach(button => {
+                if (button.textContent.includes('Add to Cart')) {
+                    button.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        currentCount++;
+                        cartCount.textContent = currentCount;
+                        
+                        button.textContent = 'Added!';
+                        button.classList.add('bg-secondary', 'text-primary');
+                        button.classList.remove('bg-primary', 'text-white');
+                        
+                        setTimeout(() => {
+                            button.textContent = 'Add to Cart';
+                            button.classList.remove('bg-secondary', 'text-primary');
+                            button.classList.add('bg-primary', 'text-white');
+                        }, 2000);
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script id="search-functionality">
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.querySelector('input[placeholder="Search products..."]');
+            
+            searchInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const searchTerm = this.value.trim();
+                    if (searchTerm) {
+                        console.log('Searching for:', searchTerm);
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navmenu = document.querySelector('.navmenu');
+  const closebtn = document.querySelector('.closebtn');
+
+  hamburger.addEventListener('click', () => {
+    navmenu.classList.add('active');
+    hamburger.setAttribute('aria-expanded', 'true');
+  });
+
+  closebtn.addEventListener('click', () => {
+    navmenu.classList.remove('active');
+    hamburger.setAttribute('aria-expanded', 'false');
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    
+const testimonialsContainer = document.querySelector('.testimonials-container');
+const testimonial = document.querySelector('.testimonial');
+const userImage = document.querySelector('.user-image');
+const username = document.querySelector('.username');
+const role = document.querySelector('.role');
+
+const testimonials = [
+  {
+    name: 'Rashid Ali',
+    position: 'Marketing',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyRI6B3xyvLMLvh9LVOayETOIPM9lWQrPuvA&s',
+    text: "Blazer dekh kar dil khush ho gaya, material bohat premium feel deta hai. Customer service bohat helpful thi, aur coat ka design classy lagta hai.",
+  },
+  {
+    name: 'Ali Khan',
+    position: 'Customer',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRholOE8v3wd4xbdPvE_PZyayKYByqjZBpFnST6AfKZZNd2Gna4t2KDvTvytT7bm2NcN20&usqp=CAU',
+    text: 'Jacket ki quality kamaal ki hai, fit bilkul perfect hai. Bohat pasand aayi! Delivery time par mili aur product bilkul waise hi tha jaise pictures mein.',
+  },
+  {
+    name: 'Wazeer Nami',
+    position: 'Customer',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_idRbvQ9Gi2JwYNucMVdsBMCtAg95t09lfm8txB-190uj4Slaww9rgwWEendtxLKpY4&usqp=CAU',
+    text: "Jab pehni to sab ne tarif ki! Bohat comfortable aur stylish hai. Silayi aur finishing top level ki hai. Pura paisa vasool!",
+  },
+  {
+    name: 'Uzma Shah',
+    position: 'Citizen',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgb0I03xQx2BqlrWycx1wqnoyjThdIHWhsMA&s',
+    text: "Fabric soft aur high quality hai. Definitely dobara order dungi. Packing neat thi aur product bilkul safe pohoncha. Shandar experience.",
+  },
+  {
+    name: 'Salman Iqbal',
+    position: 'Customer',
+    photo: 'https://idaindia.org.in/wp-content/uploads/2022/08/indian-testimonial-pranav-img-02-v01.png',
+    text: "Fit perfect aaya, aur look bilkul premium lagta hai. Pictures jaisa hi product mila. Quality dekh kar maza aa gaya.",
+  },
+  {
+    name: 'Tariq Shah',
+    position: 'Customer',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaVcjW-6suqQf5IRbYGZqsLTxnO9lCgOC7HBcstNvBPTb0DgkbdrlTrQRbnYILK2V6jPA&usqp=CAU',
+    text: 'Experience bohat acha raha, brand bohat professional hai. Yeh jacket meri wardrobe ka best addition hai!',
+  },
+  {
+    name: 'Zeenat Jahaa',
+    position: 'Customer',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVg2wOHYwhrsXigk2oEvF1V87oZodoX4p8ZsXUV7dJUzSgyL2ZC4nDYYgY1I5bc9F61PI&usqp=CAU',
+    text: 'Durability aur comfort dono hi zabardast hain. Highly recommended! Coat perfectly fit aaya aur time par deliver hua. Shukriya!',
+  },
+];
+
+let idx = 0;
+
+function updateTestimonials() {
+  const { name, position, photo, text } = testimonials[idx];
+  testimonial.innerHTML = text;
+  userImage.src = photo;
+  username.innerHTML = name;
+  role.innerHTML = position;
+
+  idx++;
+  if (idx >= testimonials.length) idx = 0;
+}
+
+updateTestimonials(); // show first testimonial immediately
+setInterval(updateTestimonials, 4000); // change every 4 seconds
+
+</script>
+<script src="js/share.js"></script>
+</body></html>
