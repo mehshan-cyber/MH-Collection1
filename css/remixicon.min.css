@@ -27,7 +27,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
-  position: sticky;       /* ✅ make it sticky */
+      /* ✅ make it sticky */
   top: 0;                 /* ✅ stick to top */
   z-index: 1000;          /* ✅ keep above all content */
   flex-wrap: wrap;
